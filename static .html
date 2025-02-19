@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Static Site</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+
+        /* Header section */
+        .site-header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        /* Navigation menu */
+        .main-nav {
+            background: #34495e;
+            padding: 1rem;
+        }
+
+        .nav-list {
+            list-style:none;
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+        }
+
+        .nav-link {
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #2ecc71;
+        }
+
+        /* Content sections */
+        .page-content {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .welcome-banner {
+            text-align: center;
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+
+        .info-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Footer styling */
+        .site-footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1.2rem;
+            position: sticky;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Static Site Demo</h1>
+    </header>
+
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Services</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-content">
+        <section class="welcome-banner">
+            <h2>Explore Our Platform</h2>
+            <p>Start your journey with us today</p>
+            <button style="margin-top: 1.2rem; padding: 0.6rem 1.2rem;">Get Started</button>
+        </section>
+
+        <div class="card-container">
+            <article class="info-card">
+                <h3>Service One</h3>
+                <p>Sample description text for service offering.</p>
+            </article>
+            <article class="info-card">
+                <h3>Service Two</h3>
+                <p>Sample description text for service offering.</p>
+            </article>
+            <article class="info-card">
+                <h3>Service Three</h3>
+                <p>Sample description text for service offering.</p>
+            </article>--
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Your Brand Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

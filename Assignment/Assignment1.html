@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple website</title>
+    <!--* it telk to the browser ;i dont went your defult value-->
+    <style>
+        img{
+            max-width: 100%;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            line-height: 1.5;
+        }
+
+       
+        .static h1 {
+            
+            background: #2c3e50;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+
+        .main-nav {
+            background: #34495e;
+            padding: 1rem;
+        }
+
+        .nav-list {
+            list-style:none;
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+        }
+
+        .nav-link {
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #2ecc71;
+        }
+
+
+
+        
+        /* Main content area */
+        .page-content {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .main-section {
+            width: 90%;
+            max-width: 1000px;
+            margin: 3rem auto;
+        }
+
+        .about-article {
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+        }
+        .image-class{
+
+            display: flex;
+            width: auto;
+            margin-right:auto;
+            margin-left:auto;
+            border: 2px;
+        
+
+        }
+        .imege1,.imege2{
+            width: 50%;
+            height: auto;
+    
+
+
+        }
+        .imege1 img,.imege2 img {
+            width:100% ;
+            height: auto;
+            padding:30px ;
+            
+
+        }   
+        
+          .footer-page  {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1.2rem;
+            bottom: 0;
+        }
+        .another-link {
+            color: #1d1515;
+        }
+        .another-link:hover{
+            color:rgb(100, 156, 100);
+        }
+        </style>
+
+  
+           
+</head>
+
+<body>
+    <header class="static h1">
+        <h1>MY FRIST STATIC WEBPAGE</h1>
+
+        <nav class="main-nav">
+            <ul class="nav-list">
+
+                <li><a href="https://www.apple.com/mac/" class="nav-link" target="_blank">mac</a>
+                </li>
+                <li><a href="https://www.apple.com/ipad/" class="nav-link" target="_blank">ipad</a></li>
+                <li>
+                    <a href="https://www.apple.com/iphone/" class="nav-link" target="_blank">iphone</a>
+                </li>
+
+                <li><a href="https://www.apple.com/watch/"  class="nav-link"target="_blank">watch</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="page-content">
+        <section class="main-section">
+            <article class="about-article">
+                <h2>Apple product</h2>
+                <p>Since the company's founding and into the early 2000s, Apple primarily sold computers, which are
+                    marketed as
+                    Macintosh since the mid-1980s. Since then, the company has expanded its product categories to
+                    include
+                    various
+                    portable devices, starting with the now discontinued iPod (2001), and later with the iPhone (2007)
+                    and iPad
+                    (2010). Apple also sells several other products that it categorizes as "Wearables, Home and
+                    Accessories",
+                    such
+                    as the Apple Watch, Apple TV, AirPods, HomePod, and Apple Vision Pro.</p>
+            </article>
+            <article class="about-article">
+                <h2>example of apple product</h2>
+
+                <p> <b>Mac (computer)</b>
+                    A MacBook Air, in midnight color, on a wooden desk.
+                    MacBook Air with M2 chip
+                    An thin iMac in blue color on a desk.
+                    iMac with M1 chip
+                    Mac, which is short for Macintosh—its official name until 1999—is Apple's line of personal computers
+                    that
+                    use the company's proprietary macOS operating system. Personal computers were Apple's original
+                    business
+                    line, but as of the end of 2024 they account for only about eight percent of the company's
+                    revenue.[1]</p>
+            </article>
+            
+        </section>
+                <section>
+                <div>
+                    <h3><center>image of msc(computer)</center></h3>
+                </div>
+                <div class="image-class">
+                    <div class="imege1">
+                        <img src="../imege/51QXk33t27L._AC_SL1000_.jpg" alt="mac computer">
+                        RUBAN Case for MacBook 12 Inch A1534 - Slim Snap On Hard Shell Protective Cover, Crystal Clear
+                    </div>
+                    <div class="imege2">
+                        <img  style="height: 300px;" src="../imege/welcome_hero_endframe__c61x1mv7kgqe_medium.jpg"
+                            alt="mac computer">
+             ~  RUBAN Case for MacBook 12 633fef799ea15b4d0a5ab537-rain-design-mbase-21-5-inch-imac
+                    </div>
+                </div>
+        </section>
+    
+    </main>
+    <footer>
+        <div class="footer-page">
+            <h3>Feedback and Information</h3>
+            <P> More ways to shop:<a class="another-link" href="https://www.apple.com/retail/"> Find an Apple Store</a> or<a
+                class="another-link" href="https://locate.apple.com/">other retailer</a> near you. Or call 1-800-MY-APPLE.</P>
+            <p> <i> Copyright © 1997-2009 Apple Inc. All rights reserved.</i></p>
+            <p> <i> Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA.</i></p>
+        </div>
+    </footer>
+</body>
+
+</html>
